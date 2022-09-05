@@ -12,3 +12,6 @@ def text_preprocess(data, content_col="Tweet content"):
     data["cleaned"] = data["cleaned"].replace(r"^\s\-\s", "", regex=True)
     data["cleaned"] = data["cleaned"].replace(r"\s+", " ", regex=True)
     data["cleaned"] = data["cleaned"].str.strip()
+
+def vader_sentiment:
+    pass
